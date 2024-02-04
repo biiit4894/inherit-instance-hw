@@ -12,7 +12,8 @@ public class Product {
     }
 
     static void getProductInfo(Product product) {
-        System.out.println(product.name + "의 배송비는 " + product.deliveryPrice + "원 입니다.");
+        System.out.println(product.name + "의 가격은 " + product.price + "원, 무게는 " + product.weight + "kg입니다.");
+        System.out.println("총 배송비: " + product.deliveryPrice + "\n");
     }
 
     public static void main(String[] args) {

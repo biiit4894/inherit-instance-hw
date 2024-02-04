@@ -9,9 +9,6 @@ public class Grocery extends Product implements DeliveryChargeCalculator {
         int weight = this.weight;
         int price = this.price;
 
-        System.out.println(weight);
-        System.out.println(price);
-
         if(weight >= 10) {
             this.deliveryPrice += 10000;
 
