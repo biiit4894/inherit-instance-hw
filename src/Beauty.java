@@ -28,4 +28,9 @@ public class Beauty extends Product implements DeliveryChargeCalculator {
         return this.deliveryPrice;
     }
 
+    void getProductInfo() {
+        System.out.println(name + "의 가격은 " + price + "원, 무게는 " + weight + "kg입니다.");
+        System.out.println("총 배송비: " + deliveryPrice + "\n");
+    }
+
 }
