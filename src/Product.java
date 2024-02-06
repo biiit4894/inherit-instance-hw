@@ -1,4 +1,4 @@
-public class Product {
+public class Product implements Promotion {
     String name;
     int price;
     int weight;
@@ -9,5 +9,13 @@ public class Product {
         this.name = name;
         this.price = price;
         this.weight = weight;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public int getWeight() {
+        return weight;
     }
 }
